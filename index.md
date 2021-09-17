@@ -32,7 +32,7 @@
 <body>
 <div class="container">
   <div class="menu">
-      <img class="logo" src="images/AC.png"></img>
+      <img class="logo" src="images/AC.png">
       <div class="black"></div>
     <ul id="menu">
       <li data-menuanchor="Home" class="active"><a href="#Home" class="home">Главная</a></li>

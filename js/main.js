@@ -43,8 +43,45 @@ $(function(){
     var lineLength = $('.home').width()
     inePos = $('.home').offset()
     lineLength = $('.home').width()
+	str = window.location.href
+	if(str.substring(str.length-2)=='me'){
+		linePos = $('.home').offset()
+		lineLength = $('.home').width()
+		$('.underLine').offset({top:linePos.top + 25, left:linePos.left})
+		$('.underLine').css('width',lineLength+'px')
+	}
+	if(str.substring(str.length-2)=='ut'){
+		linePos = $('.about').offset()
+		lineLength = $('.about').width()
+		$('.underLine').offset({top:linePos.top + 25, left:linePos.left})
+		$('.underLine').css('width',lineLength+'px')
+	}
+	if(str.substring(str.length-2)=='ls'){
+		linePos = $('.skills').offset()
+		lineLength = $('.skills').width()
+		$('.underLine').offset({top:linePos.top + 25, left:linePos.left})
+		$('.underLine').css('width',lineLength+'px')
+	}
+	if(str.substring(str.length-2)=='es'){
+		linePos = $('.services').offset()
+		lineLength = $('.services').width()
+		$('.underLine').offset({top:linePos.top + 25, left:linePos.left})
+		$('.underLine').css('width',lineLength+'px')
+	}
+	if(str.substring(str.length-2)=='ks'){
+		linePos = $('.works').offset()
+		lineLength = $('.works').width()
+		$('.underLine').offset({top:linePos.top + 25, left:linePos.left})
+		$('.underLine').css('width',lineLength+'px')
+	}
+	if(window.location.href.substring(str.length-2)=='ts'){
+		linePos = $('.contacts').offset()
+		lineLength = $('.contacts').width()
+		$('.underLine').offset({top:linePos.top + 25, left:linePos.left})
+		$('.underLine').css('width',lineLength+'px')
+	}
     $('.underLine').offset({top:linePos.top + 25, left:linePos.left -0})
-    $('.underLine').css('width',63+'px')
+    $('.underLine').css('width',lineLength+'px')
     str = window.location.href
     $(window).bind('hashchange', function() {
     	str = window.location.href

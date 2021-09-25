@@ -1021,6 +1021,9 @@ form{
         transform: translate(0px, -50%);
     }
 
+    .info{
+        width: 995px;
+    }
 }
 
 

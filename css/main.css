@@ -729,6 +729,10 @@ form{
     margin: 0px 10px;
 }
 
+.info{
+    width: 995px;
+}
+
 @media screen and (min-width: 1600px) and (max-width: 20000px) {
     #section4 .land{
         margin-top:0px;
@@ -1021,9 +1025,6 @@ form{
         transform: translate(0px, -50%);
     }
 
-    .info{
-        width: 995px;
-    }
 }
 
 

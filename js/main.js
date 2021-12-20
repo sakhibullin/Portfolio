@@ -12,8 +12,9 @@ $(function(){
 
 	if (winWidth < 10000000) {
 		$('.myWorks').owlCarousel({
-			// loop:true,
+			loop:true,
 			margin: 128,
+			autoplay:true,
 			// center:false,
 			nav: false,
 			responsive: {

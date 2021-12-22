@@ -40,11 +40,11 @@ $(function(){
 
     
    // Шапка
-    var linePos = $('.home').offset()
-    var lineLength = $('.home').width()
-    inePos = $('.home').offset()
-    lineLength = $('.home').width()
-	str = window.location.href
+    var linePos = $('.home').offset();
+    var lineLength = $('.home').width();
+    inePos = $('.home').offset();
+    lineLength = $('.home').width();
+	str = window.location.href;
 	if(str.substring(str.length-2)=='me'){
 		linePos = $('.home').offset()
 		lineLength = $('.home').width()
@@ -85,7 +85,7 @@ $(function(){
     $('.underLine').css('width',lineLength+'px')
     str = window.location.href
     $(window).bind('hashchange', function() {
-		winWidth = winWidth+1
+		winWidth = winWidth+1;
     	str = window.location.href
         if(str.substring(str.length-2)=='me'){
         	linePos = $('.home').offset()
@@ -132,7 +132,7 @@ $(function(){
 
         $('.underLine').offset({top:linePos.top + 25, left:linePos.left})
     	$('.underLine').css('width',lineLength+'px')
-		winWidth = winWidth -1
+		winWidth = winWidth -1;
     });
 
     // цвет

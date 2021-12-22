@@ -1032,6 +1032,12 @@ form{
 
 }
 
+@media screen and (min-width: 100px) and (max-width: 4000px){
+    .lamp{
+        margin-top: 150px;
+    }
+}
+
 
 
 

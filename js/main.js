@@ -85,6 +85,24 @@ $(function(){
     $('.underLine').css('width',lineLength+'px')
     str = window.location.href
     $(window).bind('hashchange', function() {
+		$('.myWorks').owlCarousel({
+			loop:true,
+			margin: 128,
+			autoplay:true,
+			// center:false,
+			nav: false,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1
+				},
+				1000: {
+					items: 3
+				}
+			}
+		})
     	str = window.location.href
         if(str.substring(str.length-2)=='me'){
         	linePos = $('.home').offset()

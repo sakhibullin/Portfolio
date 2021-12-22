@@ -32,7 +32,7 @@ $(function(){
 	}
 	if(winWidth<1000){
 		setTimeout(function() { $('.owl-item').css('width',winWidth) }, 300);
-		setTimeout(function() { $('.owl-stage').css('width',(winWidth+128)*3)}, 300);
+		// setTimeout(function() { $('.owl-stage').css('width',(winWidth+128)*3)}, 300);
 	}
 
 
